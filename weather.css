@@ -1,0 +1,25 @@
+body{
+  background: rgb(26, 104, 104);
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+
+}
+.navbar{
+  justify-content: center;
+}
+.five-day-box{
+color: white;
+background-color: lightsteelblue;
+padding: 0px 12px;
+margin: 0px 10px;
+border: solid 3px whitesmoke;
+}
+.city-data{
+  margin: 0px 0px 0px 10px;
+  padding: 0 1px;
+  border: solid 3px whitesmoke;
+}
+.search-area{
+  background-color:lightsteelblue;
+  border: solid 3px whitesmoke;
+}
