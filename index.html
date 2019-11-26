@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/c19aa0774f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="weather.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">
+            <h1>Weather Dashboard</h1>
+        </span>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 search-area rounded-sm">
+                <P>Type your city below:</P>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="search">
+                    <div class="input-group-append">
+                        <button id="citySearch" class="btn btn-primary" type="button"><i
+                                class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div><button class="btn btn-outline-secondary" hidden>example</button></div> 
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="col-8">
+                <div class="row mt-2">
+                    <div class="col-12 rounded-sm city-data">
+                        <div class="col-12">
+                            <h2 id="city">city: </h2><img id="icon">
+                        </div>
+                        <div class="col-12">
+                            <h5 id="temp">temp:</h5>
+                        </div>
+                        <div class="col-12">
+                            <h5 id="humidity">humidity:</h5>
+                        </div>
+                        <div class="col-12">
+                            <h5 id="wind">wind:</h5>
+                        </div>
+                        <div class="col-12">
+                            <h5 class="danger" id="uv">uv:</h5>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12">
+                        <h4>5-Day Forecast:</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2 rounded-sm five-day-box">
+                        <p id="date1">day 1</p>
+                        <img id="icon1">
+                        <P id="temp1">data</P>
+                        <P id="humid1">data</P>
+                    </div>
+                    <div class="col-2 rounded-sm five-day-box">
+                        <p id="date2">day 1</p>
+                        <img id="icon2">
+                        <P id="temp2">data</P>
+                        <P id="humid2">data</P>
+
+                    </div>
+                    <div class="col-2 rounded-sm five-day-box">
+                        <p id="date3">day 1</p>
+                        <img id="icon3">
+                        <P id="temp3">data</P>
+                        <P id="humid3">data</P>
+                    </div>
+                    <div class="col-2 rounded-sm five-day-box">
+                        <p id="date4">day 1</p>
+                        <img id="icon4">
+                        <P id="temp4">data</P>
+                        <P id="humid4">data</P>
+                    </div>
+                    <div class="col-2 rounded-sm five-day-box">
+                        <p id="date5">day 1</p>
+                        <img id="icon5">
+                        <P id="temp5">data</P>
+                        <P id="humid5">data</P>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="weather.js"></script>
+</body>
+
+</html>
